@@ -5,9 +5,9 @@ public class ValidationModule {
     public double handleRainyMonth(Scanner sc, double totalExpenses) {
 
         System.out.print("Is it Rainy Month? (true/false): ");
-        boolean rainy = sc.nextBoolean();
+        boolean season = sc.nextBoolean();
 
-        if (rainy) {
+        if (season) {
             System.out.print("Enter Extra Water Cost: ");
             double water = sc.nextDouble();
 
@@ -53,4 +53,5 @@ public class ValidationModule {
 
         sc.close();
     }
+
 }
